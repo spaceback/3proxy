@@ -2,7 +2,7 @@ apt-get update && apt-get -y upgrade
 apt-get install -y build-essential nano
 wget https://github.com/z3APA3A/3proxy/archive/3proxy-0.8.6.tar.gz
 tar xzf 3proxy-0.8.6.tar.gz
-cd 3proxy-0.8.6
+cd 3proxy-3proxy-0.8.6
 make -f Makefile.Linux
 cd src
 mkdir /etc/3proxy/
