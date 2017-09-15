@@ -11,9 +11,7 @@ This setup has been created to quickly install a proxy on small lowendbox VPS mo
 
 Download, make executable and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/spaceback/3proxy/master/3proxyinstaller.sh
-    chmod +x 3proxyinstaller.sh
-    ./3proxyinstaller.sh
+  git clone https://github.com/spaceback/3proxy && cd 3proxy && chmod +x 3proxyinstaller.sh && ./3proxyinstaller.sh
 
 After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!! (you can also change the port, default is 3128)
 
