@@ -30,10 +30,9 @@ to change the proxy username to "michael" and the password to "PAssWord99"
 Once you've change the username / password you can start the proxy (or reboot the VPS as 3proxy has been added to the init scripts and will autostart)
 
     /etc/3proxy/3proxy /etc/3proxy/3proxy.cfg &
+to stop
+/usr/bin/killall 3proxy
 
-**Script tested on december 5, 2013 on the following fresh VPS install distros :**
+top reload
+/usr/bin/killall -s USR1 3proxy
 
-- Debian 6 32bits
-- Debian 7 32bits
-- Ubuntu 12.10 32bits
-- Ubuntu 12.04 32bits
